@@ -1,17 +1,6 @@
-import { NavigationContainer } from "@react-navigation/native";
-import { Form } from "./src/screens/Form/Form";
-import Home from "./src/screens/Home/Home";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
-const Stack = createNativeStackNavigator();
-
+import { Routes } from "./src/routes";
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Form" component={Form} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Routes />
   );
 }

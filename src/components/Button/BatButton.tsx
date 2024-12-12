@@ -1,6 +1,5 @@
 import React from "react";
 import { Pressable, Text } from "react-native";
-
 import { styles } from "./ButtonStyle";
 import { useNavigation } from "@react-navigation/native";
 
