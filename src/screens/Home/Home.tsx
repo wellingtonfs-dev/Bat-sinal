@@ -12,7 +12,7 @@ export default function Home() {
         <BatLogo/>
       </View>
       <View>
-        <BatButton nav="Form" text="Activate bat signal"/>        
+        <BatButton nav="Form" text="Ativar Bat Sinal"/>        
       </View>
     </View>
   );
