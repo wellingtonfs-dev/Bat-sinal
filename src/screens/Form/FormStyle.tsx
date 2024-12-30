@@ -37,5 +37,10 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',    
     marginTop: 5,
     paddingLeft: 10,    
-  }  
+  },
+  errorText:{
+    fontSize: 14,
+    color:'red',    
+    marginBottom: 5
+  }
 });

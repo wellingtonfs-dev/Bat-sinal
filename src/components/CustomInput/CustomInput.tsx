@@ -8,6 +8,7 @@ type CustomInputProps = {
     placeholder: string;
     isMultiline?: boolean;
     keyboardType?: 'default' | 'numeric' | 'email-address' | 'phone-pad';
+    onBlur: () => void;
   };
 
 
@@ -17,7 +18,8 @@ export function CustomInput({
     onChangeText, 
     placeholder, 
     isMultiline = false, 
-    keyboardType = 'default' 
+    keyboardType = 'default',
+    onBlur
   }: CustomInputProps) {
     return (
       <View style={styles.inputContainer}>
@@ -32,6 +34,7 @@ export function CustomInput({
           numberOfLines={isMultiline ? 4 : 1}
           maxLength={isMultiline ? 40 : undefined}
           keyboardType={keyboardType}
+          onBlur={onBlur}
         />
       </View>
     );

@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
       fontWeight: 'bold',
       marginBottom: 8,
     },
-    input: {
+    input: {      
       height: 40,
       borderColor: '#ccc',
       borderWidth: 1,
@@ -28,11 +28,11 @@ export const styles = StyleSheet.create({
       paddingHorizontal: 10,
       backgroundColor: '#f9f9f9',
     },
-    inputLong: {
-      height: 80,
+    inputLong: {               
+      height: 120,
       borderColor: '#ccc',
       borderWidth: 1,
-      borderRadius: 8,
+      borderRadius: 8,      
       paddingHorizontal: 10,
       backgroundColor: '#f9f9f9',
     },
